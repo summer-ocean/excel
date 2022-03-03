@@ -3,10 +3,12 @@ VBA > テーブル > テーブル
 ## インデックス
 1～  
 ```vba
-tbl = シート.ListObjects(i)
+Dim tbl As ListObject
+set tbl = sht.ListObjects(i)
 ```
 
 ## 名前
 ```vba
-tbl = シート.ListObjects("テーブル名")
+Dim tbl As ListObject
+set tbl = sht.ListObjects("テーブル名")
 ```
