@@ -6,7 +6,7 @@ VBA > テーブル > 列
 Dim col As ListColumn
 set col = シート.ListObjects(1).ListColumns(i)
 ```
-## 列名
+## [列名](列名.md)
 ```vba
 Dim col As ListColumn
 set col = シート.ListObjects("列名").ListColumns(i)
