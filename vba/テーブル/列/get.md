@@ -3,10 +3,17 @@ VBA > テーブル > 列
 ## インデックス
 1～  
 ```vba
-col = シート.ListObjects(1).ListColumns(i)
+Dim col As ListColumn
+set col = シート.ListObjects(1).ListColumns(i)
+```
+## 列名
+```vba
+Dim col As ListColumn
+set col = シート.ListObjects("列名").ListColumns(i)
 ```
 
 ## 全体
 ```vba
-cols = シート.ListObjects(1).ListColumns
+Dim col As ListColumns
+set cols = シート.ListObjects(1).ListColumns
 ```
