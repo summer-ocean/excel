@@ -3,10 +3,12 @@ VBA > テーブル > 行
 ## インデックス
 1～  
 ```vba
-row = シート.ListObjects(1).ListRows(i)
+Dim row As ListRow
+set row = tbl.ListRows(i)
 ```
 
 ## 全体
 ```vba
-rows = シート.ListObjects(1).ListRows
+Dim rows As ListRows
+set rows = tbl.ListRows
 ```
