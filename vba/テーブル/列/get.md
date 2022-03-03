@@ -4,16 +4,16 @@ VBA > テーブル > 列
 1～  
 ```vba
 Dim col As ListColumn
-set col = シート.ListObjects(1).ListColumns(i)
+set col = tbl.ListColumns(i)
 ```
 ## [列名](列名.md)
 ```vba
 Dim col As ListColumn
-set col = シート.ListObjects("列名").ListColumns(i)
+set col = tbl.ListColumns("列名")
 ```
 
 ## 全体
 ```vba
 Dim col As ListColumns
-set cols = シート.ListObjects(1).ListColumns
+set cols = tbl.ListColumns
 ```
