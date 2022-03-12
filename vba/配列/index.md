@@ -1,7 +1,5 @@
 [宣言](宣言.md)  
 
-[作成](作成.md)  
-
 [get](get.md)  
 [set](set.md)  
 
