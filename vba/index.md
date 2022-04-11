@@ -3,6 +3,7 @@
 
 [テーブル](テーブル/index.md)  
 
+[文字列](文字列/index.md)  
 [日時](日時/index.md)  
 
 [配列](配列/index.md)  
